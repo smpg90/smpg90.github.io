@@ -12,8 +12,11 @@ p{
     line-height: 24px;
 }
 
-img{
-    border: 5px solid #cccccc;
-    width: 90%;
+aside {
+    background-color: #000
+    float: right;
+    margin-left: 5%
+    width: 45%
+    
+    
 }
-
