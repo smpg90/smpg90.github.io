@@ -1,10 +1,59 @@
+header {
+ text-align:center   
+}
+
 h1 {
     color: #FF1493;
 }
 
 h2{
-    font-size: 22px
-    color: #6A5ACD
+    font-size: 50px;
+    font-family: helvetica;
+    color: #000000
+}
+ol, ul {
+	list-style: none;
+}
+/*------------------------------------- navigation elements-----------*/
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a: hover{
+    color: #000000;
+    text-decoration:none;
+}
+
+nav {
+    width: 100px;
+    float:left;
+    font-family:helvetica;
+}
+nav a:link, a:visited {
+	border-radius: 50%;
+  	width: 100px;
+  	height: 100px; 
+  	display:block;
+  	background-color: #E6E6FA;
+  	color: #fff;
+  	text-align: center;
+  	margin-bottom: 60px;
+  	margin-left:30px;
+  	line-height: 100px;
+  	font-family: helvetica;
+}
+nav a:hover {
+	color: #000;
+	background-color: #D3D3D3;
+}
+nav a:active {
+	color: #000;
+}
+/*--------------------------------------------- body elements---------*/
+aricle{
+ font-family:helvetica;
+    margin-left: 80%;
 }
 
 p{  
@@ -20,9 +69,36 @@ aside {
     float: right;
     margin-left: 5%
     width: 45%
-    
-    
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+    left:0px;
+    bottom:0px;
+    height: 150 px;
+    text-align:center;
+    position:: fixed;
+    border-top: 1px;
+    border-top-color: #000;
+}
+/*footer rule
+    
 
 
