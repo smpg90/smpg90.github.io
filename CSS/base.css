@@ -1,20 +1,27 @@
 header {
- text-align:center   
+ text-align:center;   
 }
 
 h1 {
     color: #FF1493;
+    align-content:center;
 }
 
 h2{
-    font-size: 50px;
+    font-size: 40px;
     font-family: helvetica;
-    color: #000000
+    color: #000000;
+    margin-left: 3%;
+}
+/*----- Cannot get the h6 to not turn white once clicked upon----*/
+h6 a{
+    font-family:helvetica;
+    color:#000000
 }
 ol, ul {
 	list-style: none;
 }
-/*------------------------------------- navigation elements-----------*/
+/*--------------------------- navigation elements: Cannot get the footer to remain centered and on the bottom-----------------------------*/
 nav a{
     color: #ffffff;
     text-decoration: none;
@@ -35,25 +42,29 @@ nav a:link, a:visited {
   	width: 100px;
   	height: 100px; 
   	display:block;
-  	background-color: #E6E6FA;
+  	background-color: #FF6699;
   	color: #fff;
   	text-align: center;
-  	margin-bottom: 60px;
+  	align-content:center;
+    margin-bottom: 60px;
   	margin-left:30px;
   	line-height: 100px;
   	font-family: helvetica;
+    
 }
 nav a:hover {
 	color: #000;
 	background-color: #D3D3D3;
+    text-align:center;
 }
 nav a:active {
 	color: #000;
 }
 /*--------------------------------------------- body elements---------*/
-aricle{
+article{
  font-family:helvetica;
-    margin-left: 80%;
+ margin-left: 20%;
+    
 }
 
 p{  
@@ -71,33 +82,37 @@ aside {
     width: 45%
 }
 
+aside{
+    background: #FFFFFF;
+    width: 45%;
+    float:right;
+    margin-left: 5%;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#footer{
-    left:0px;
-    bottom:0px;
-    height: 150 px;
-    text-align:center;
-    position:: fixed;
-    border-top: 1px;
-    border-top-color: #000;
 }
+
+img{
+    float:right;
+    margin-right:8%;
+    
+}
+
+
+footer{
+    height: 150px;
+    text-align::center;
+    border-top: 1px solid;
+    padding: 30px;
+    align-content:center
+}
+
+footer li{
+    display:inline;
+}
+
+
+
+
+
 /*footer rule
     
 
