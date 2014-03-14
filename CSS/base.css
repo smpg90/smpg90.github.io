@@ -4,20 +4,43 @@ header {
 
 h1 {
     color: #FF1493;
-    align-content:center;
+    align-content:right;
+    margin-left:10%;
+    
 }
 
 h2{
     font-size: 40px;
     font-family: helvetica;
     color: #000000;
-    margin-left: 3%;
+    margin-left:20%;
+    margin-top:10%;
+
 }
+
+h3{
+    font-family:helvetica;
+    font-size:20px;
+    
+}
+
+h4{
+    font-family:helvetica;
+    
+}
+
+h5{
+ margin-left:20%;   
+}
+
+
+
 /*----- Cannot get the h6 to not turn white once clicked upon----*/
 h6 a{
     font-family:helvetica;
     color:#000000
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -27,7 +50,7 @@ nav a{
     text-decoration: none;
 }
 
-nav a: hover{
+nav a:hover{
     color: #000000;
     text-decoration:none;
 }
@@ -43,7 +66,7 @@ nav a:link, a:visited {
   	height: 100px; 
   	display:block;
   	background-color: #FF6699;
-  	color: #fff;
+  	color: #000000;
   	text-align: center;
   	align-content:center;
     margin-bottom: 60px;
@@ -63,7 +86,7 @@ nav a:active {
 /*--------------------------------------------- body elements---------*/
 article{
  font-family:helvetica;
- margin-left: 20%;
+ margin-left: 17%;
     
 }
 
@@ -71,15 +94,17 @@ p{
     font-size: 16px;
     line-height: 24px;
 }
+
 img{
-    width:50%
-    height: 80%
+    width:50%;
+    height: 80%;
+    margin-right:2%;
 }
 aside {
-    background-color: #000
-    float: right;
-    margin-left: 5%
-    width: 45%
+    background-color: #000;
+    float:right;
+    margin-left: 5%;
+    width: 45%;
 }
 
 aside{
@@ -92,28 +117,29 @@ aside{
 
 img{
     float:right;
-    margin-right:8%;
     
 }
 
 
 footer{
-    height: 150px;
-    text-align::center;
-    border-top: 1px solid;
-    padding: 30px;
-    align-content:center
-}
-
-footer li{
+    width:10%;
+    text-align:right;
+    margin-left:80%;
+    padding: 10px;
     display:inline;
 }
 
+footer img{
+ width:5%;   
+}
 
 
 
 
-/*footer rule
+
+
+
+
     
 
 
